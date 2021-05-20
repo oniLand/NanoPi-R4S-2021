@@ -88,7 +88,9 @@ svn co https://github.com/281677160/openwrt-package/trunk/cpulimit
 svn co https://github.com/281677160/openwrt-package/trunk/luci-app-cpulimit
 
 # Add luci-udptools
-git clone --depth=1 https://github.com/zcy85611/openwrt-luci-kcp-udp
+svn co https://github.com/zcy85611/Openwrt-Package/trunk/luci-udptools
+svn co https://github.com/zcy85611/Openwrt-Package/trunk/udp2raw
+svn co https://github.com/zcy85611/Openwrt-Package/trunk/udpspeeder-tunnel
 
 # Add luci-app-wireguard
 svn co https://github.com/openwrt/luci/trunk/applications/luci-app-wireguard
@@ -114,7 +116,7 @@ popd
 
 # Add Pandownload
 pushd package/lean
-svn co https://github.com/immortalwrt/immortalwrt/trunk/package/lean/pandownload-fake-server
+svn co https://github.com/immortalwrt/packages/trunk/net/pandownload-fake-server
 popd
 
 # Mod zzz-default-settings
