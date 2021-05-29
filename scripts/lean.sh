@@ -31,12 +31,6 @@ git clone --depth=1 https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk
 # Add luci-proto-minieap
 git clone --depth=1 https://github.com/ysc3839/luci-proto-minieap
 
-# Add luci-app-netdata
-rm -rf ../lean/luci-app-netdata
-svn co https://github.com/281677160/openwrt-package/trunk/luci-app-netdata
-rm -rf ../../customfeeds/packages/admin/netdata
-svn co https://github.com/281677160/openwrt-package/trunk/netdata
-
 # Add ServerChan
 git clone --depth=1 https://github.com/tty228/luci-app-serverchan
 
@@ -91,9 +85,6 @@ svn co https://github.com/281677160/openwrt-package/trunk/luci-app-cpulimit
 svn co https://github.com/zcy85611/Openwrt-Package/trunk/luci-udptools
 svn co https://github.com/zcy85611/Openwrt-Package/trunk/udp2raw
 svn co https://github.com/zcy85611/Openwrt-Package/trunk/udpspeeder-tunnel
-
-# Add luci-app-wireguard
-svn co https://github.com/openwrt/luci/trunk/applications/luci-app-wireguard
 
 # Add OpenAppFilter
 git clone --depth=1 https://github.com/destan19/OpenAppFilter

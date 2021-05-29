@@ -9,7 +9,7 @@
 - 无超频 移除超频补丁，改为官方默认频率，合适不折腾的所需。电压多少都无所谓，它稳定贼好！（推荐）格式建议刷sq格式 合适小白。如果需要挂载，选择ext4
 - 精简版 我不说了哈  就保留了helloworld passwall ssrp uu加速器等。。。
 ### 注：不要用恢复备份。。不保证某个插件是否正常运行。。。建议重新设置贼好！！！
-这一个月我没电脑都在讨乞（求电脑中~）。。。
+这一个月我没电脑都在讨乞（求电脑中~）。。。需要一个WiFi模块，工业级WiFi模块MiniPCIe高通QCA9984芯片compex wle1216vx 在x86上做测试。淘宝商铺都没有货了。谁有此模块，请加入电报群找💀谢谢
 ### 默认编译 
 
 - 用户名：root 密码：password 管理IP：192.168.2.1
@@ -17,6 +17,7 @@
 - Docker版：在上面链接👆看到看到Docker版就是带有docker插件。（对passwall的udp要求很高，不要刷docker版本）
 - 精简版 ：https://github.com/DHDAXCW/NanoPi-R2S-R4S-2021-mini/releases
 - 电报群：https://t.me/DHDAXCW
+- X86固件 ：[点击链接下载](https://github.com/DHDAXCW/lede/releases)
 # 赏个鸡腿吧
  ![Alt text](data/2.jpg?raw=true "Title")
 ### 如果你觉得此项目对你有帮助，可以捐助我们，以鼓励项目能持续发展，更加完善
